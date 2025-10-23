@@ -1,5 +1,28 @@
-# Object file
-*.o
+# Abaikan file .env (berisi data rahasia)
+.env
 
-# Ada Library Information
-*.ali
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Log files
+*.log
+
+# Folder editor
+.vscode/
+.idea/
+
+# File build/output
+dist/
+build/
+*.egg-info/
+
+# File sistem
+.DS_Store
+Thumbs.db
